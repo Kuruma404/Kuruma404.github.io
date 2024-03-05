@@ -49,7 +49,6 @@ body {
     display: inline;
 }
 
-
 .navbar #coffee{
     height: 45px;
     margin-bottom: -1.8em;
@@ -184,3 +183,45 @@ footer{
 }
 
 /* Projetos */
+
+.container{
+    display: flex;
+    height: 235px;
+    border: 1px solid;
+
+    line-height: 230px;
+    border-color: transparent
+
+}
+
+
+.box{
+    background-color: #252525;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    width: 520px;
+    height: auto;
+    text-align: center;
+    margin: 12px;
+    padding: 70px;
+}
+
+
+
+
+
+#KuruKuru{
+
+    height: 150px;
+
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+
+    cursor: pointer;
+    user-select: none;
+}
+
+@keyframes slideLeft{
+    from{transform: translateX(600%)}
+}

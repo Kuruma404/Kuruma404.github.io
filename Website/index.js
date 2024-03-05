@@ -1,8 +1,10 @@
 const icone = document.getElementById("icone");
 const coffee = document.getElementById("coffee");
+const kuruKuru = document.getElementById("KuruKuru");
 
 let boom = new Audio("Audios/VineBoom.mp3");
 let coffeeAudio = new Audio("Audios/RobloxSFX.mp3");
+let kuruAudio = new Audio("Audios/KURU KURU.mp3");
 
 //Audios
 
@@ -16,6 +18,10 @@ function coffeeFun(){
     clone.play();
 }
 
+function kuruFun(){
+    var clone = kuruAudio.cloneNode();
+    clone.play();
+}
 
 icone.onclick = function(){
     boomFun();
@@ -23,4 +29,8 @@ icone.onclick = function(){
 
 coffee.onclick = function(){
     coffeeFun();
+}
+
+kuruKuru.onclick = function(){
+    kuruFun();
 }
