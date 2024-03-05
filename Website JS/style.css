@@ -1,0 +1,135 @@
+body {
+    font-family: Verdana;
+    background: #1e1e3c;
+    background: linear-gradient(0deg, #131316 35%, #2a2b2e 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(225, 225, 225);
+
+    margin: 0px;
+    text-align: center;
+}
+
+/* Navbar */
+
+.navbar ul{
+    text-align: center;
+    list-style-type: none;
+    background-color: #1c1c1c;
+    padding: 11px;
+    margin-top: -5px;
+
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin-top: 0.5px;
+    padding: 15px;
+
+    display: block;
+    block-size: 20px;
+    text-align: center;
+
+    margin-right: 10px;
+}
+
+.navbar a:hover{
+    border-radius: 15px;
+    background-color: #303030;
+}
+
+.navbar li{
+    float: right;
+    display: inline;
+}
+
+.navbar #icone{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    height: 0px;
+    margin-top: 17px;
+    margin-left: 18px;
+    float: left;
+    display: inline;
+}
+
+.navbar #icone:hover{
+    color:rgb(124, 51, 51);
+}
+
+/* H1 e P */
+
+#h1{
+    font-size: 3.5em;
+    height: 45px;
+}
+
+
+p{
+    font-size: 1.2em;
+    height: 70px;
+}
+
+/* Info */
+
+#info{
+    font-size: 1em;
+}
+
+/* Footer e ícones */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 8%;
+    width:100%;
+
+    background-color: #00000028;
+    margin: center;
+    text-align: center;
+}
+
+#footerP{
+    color: rgb(193, 193, 193);
+    font-size: 0.8em;
+    padding: 10px;
+
+    float: left;
+}
+
+#github{
+    color: rgb(193, 193, 193);
+    padding: 10px;
+    float: right;
+    margin-top: 2px;
+    margin-right: 10px;
+    margin: center;
+    text-align: center;
+}
+
+#github:hover{
+    color: rgb(79, 49, 122);
+}
+
+#linkedin{
+    
+    font-size: 30px;
+    color: rgb(208, 208, 208);
+    padding: 10px;
+    
+    margin-top: 4px;
+    margin-right: 15px;
+    margin: center;
+    text-align: center;
+    float: right;
+}
+
+#linkedin:hover{
+    color: rgb(37, 83, 120);
+}
