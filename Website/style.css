@@ -1,7 +1,7 @@
 body {
-    font-family: Verdana;
+    font-family: "Pixelify Sans",  Verdana;
     background: #1e1e3c;
-    background: linear-gradient(0deg, #131316 35%, #2a2b2e 100%);
+    background: linear-gradient(0deg, #131316 35%, #1d2230 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -11,15 +11,19 @@ body {
     text-align: center;
 }
 
+
 /* Navbar */
+
 
 .navbar ul{
     text-align: center;
     list-style-type: none;
-    background-color: #1c1c1c;
+    background-color: #161a25;
+
+    font-size: 18px;
     padding: 11px;
     margin-top: -5px;
-
+    
     overflow: hidden;
 }
 
@@ -31,19 +35,31 @@ body {
 
     display: block;
     block-size: 20px;
-    text-align: center;
 
     margin-right: 10px;
 }
 
 .navbar a:hover{
     border-radius: 15px;
-    background-color: #303030;
+    background-color: #30303065;
 }
 
 .navbar li{
     float: right;
     display: inline;
+}
+
+
+.navbar #coffee{
+    height: 45px;
+    margin-bottom: -1.8em;
+    margin-left: 22.5%;
+    float: center;
+}
+
+.navbar #coffee:hover{
+    cursor: pointer;
+    user-select: none;
 }
 
 .navbar #icone{
@@ -61,25 +77,45 @@ body {
 
 .navbar #icone:hover{
     color:rgb(124, 51, 51);
+    cursor: pointer;
+    user-select: none;
 }
 
-/* H1 e P */
+
+/* Textos */
 
 #h1{
-    font-size: 3.5em;
+    font-family: "Press Start 2P", system-ui;
+    padding: 4px;
+    font-size: 3em;
     height: 45px;
 }
 
+#H1{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 2em;
+}
 
 p{
-    font-size: 1.2em;
-    height: 70px;
+    font-size: 1.6em;
+    height: 50px;
+    Padding: 15px;
+}
+
+#P1{
+    font-size: 1.35em;
+
+}
+
+#textoH1{
+    font-size: 2.2em;
+    margin-bottom: 1.2em;
 }
 
 /* Info */
 
 #info{
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 /* Footer e ícones */
@@ -97,6 +133,7 @@ footer{
 
 #footerP{
     color: rgb(193, 193, 193);
+    font-family: Verdana;
     font-size: 0.8em;
     padding: 10px;
 
@@ -133,3 +170,17 @@ footer{
 #linkedin:hover{
     color: rgb(37, 83, 120);
 }
+
+/* Sobre */
+
+#sobre{
+    font-size: 30px;
+}
+
+/* Contato */
+
+#contato{
+    font-family: "Press Start 2P", system-ui;;
+}
+
+/* Projetos */
