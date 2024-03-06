@@ -1,3 +1,56 @@
+@font-face {
+    src: url(Fonte/Pixeloid.ttf);
+    font-family: Pixeloid;
+}
+
+@media (max-width: 1366px){
+    body{zoom: 68%; /* Zoom para deixar a fonte apropriada */}
+
+     /* EU TE ODEIO FIREFOX */
+    @-moz-document url-prefix() {
+
+        .navbar #coffee{
+            margin-right: -8%;
+            float: center;
+        }
+
+        body{
+            font-size: 0.6em;
+        }
+
+        #projDiv #P1{
+            font-size: 2em;
+            margin-top: -30px;
+        }
+
+        #informacoes .sobre{
+            margin-top: -40px;
+            font-size: 19px;
+        }
+
+        footer #linkedin{
+            font-size: 25px;
+            margin-top: 0px;
+        }
+
+        footer #github{
+            font-size: 22px;
+            margin-right: 0px;
+            margin-top: 0px;
+        }
+        
+        footer #footerP{
+            margin-top: 4px;
+        }
+        #projetos #KuruKuru{
+            height: 65px;
+        }
+    }
+
+    #KuruKuru{margin-top: -24px;}
+}
+
+
 body {
     font-family: "Pixelify Sans",  Verdana;
     background: #1e1e3c;
@@ -108,12 +161,13 @@ p{
 
 #textoH1{
     font-size: 2.2em;
-    margin-bottom: 1.2em;
+    margin-bottom: -1 em;
 }
 
 /* Info */
 
 #info{
+    font-family: Pixeloid;
     font-size: 1.5em;
 }
 
@@ -124,10 +178,10 @@ footer{
     bottom: 0;
     height: 8%;
     width:100%;
-
     background-color: #00000028;
     margin: center;
     text-align: center;
+
 }
 
 #footerP{
@@ -136,6 +190,7 @@ footer{
     font-size: 0.8em;
     padding: 10px;
 
+    
     float: left;
 }
 
@@ -172,8 +227,11 @@ footer{
 
 /* Sobre */
 
-#sobre{
+.sobre{
+    font-family: Pixeloid;
     font-size: 30px;
+
+    margin-top: -30px;
 }
 
 /* Contato */
@@ -196,6 +254,7 @@ footer{
 
 
 .box{
+
     background-color: #252525;
     border-radius: 15px;
     border: 2px solid transparent;
@@ -206,22 +265,18 @@ footer{
     padding: 70px;
 }
 
-
-
-
-
 #KuruKuru{
-
     height: 150px;
 
-    animation-name: slideLeft;
     animation-duration: 2s;
     animation-iteration-count: 1;
-
+    animation-name: slideLeft;
     cursor: pointer;
     user-select: none;
+
 }
 
 @keyframes slideLeft{
-    from{transform: translateX(600%)}
+    from{transform: translateX(480%)}
 }
+
