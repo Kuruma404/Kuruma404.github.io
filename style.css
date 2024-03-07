@@ -4,19 +4,32 @@
 }
 
 @media (max-width: 1366px){
-    body{zoom: 68%; /* Zoom para deixar a fonte apropriada */}
+    body{zoom: 80%; /* Zoom para deixar a fonte apropriada */}
+
+    #informacoes #info{margin-top: 50px;}
+
+    #h1{margin-left: 40px;}
+
+    #projDiv #P1{font-size: 1.9em;}
+
+    footer #footerP{font-size: 14px;}
+
+    footer #linkedin{margin-top: 10px;}
+
+    footer #github{
+        margin-right: 10px;
+        margin-top: 8px;
+    }
 
      /* EU TE ODEIO FIREFOX */
     @-moz-document url-prefix() {
 
         .navbar #coffee{
-            margin-right: -8%;
+            margin-right: -5%;
             float: center;
         }
 
-        body{
-            font-size: 0.6em;
-        }
+        body{font-size: 0.8em;}
 
         #projDiv #P1{
             font-size: 2em;
@@ -24,30 +37,32 @@
         }
 
         #informacoes .sobre{
-            margin-top: -40px;
-            font-size: 19px;
+            margin-top: -30px;
+            font-size: 21px;
         }
 
         footer #linkedin{
-            font-size: 25px;
-            margin-top: 0px;
+            font-size: 28px;
+            margin-top: 3px;
         }
 
         footer #github{
-            font-size: 22px;
-            margin-right: 0px;
+            font-size: 30px;
+            margin-right: 5px;
             margin-top: 0px;
         }
         
         footer #footerP{
-            margin-top: 4px;
+            font-size: 11px;
+            margin-top: 10px;
         }
         #projetos #KuruKuru{
-            height: 65px;
+            height: 100px;
+            margin-top: 6px;
         }
     }
 
-    #KuruKuru{margin-top: -24px;}
+    #KuruKuru{margin-top: 55px;}
 }
 
 
