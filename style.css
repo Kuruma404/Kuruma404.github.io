@@ -67,6 +67,7 @@
 }
 
 
+
 body {
     font-family: "Pixelify Sans",  Verdana;
     background: #1e1e3c;
@@ -79,6 +80,15 @@ body {
     margin: 0px;
     text-align: center;
 }
+
+
+@-moz-document url-prefix() {
+        .navbar #coffee{
+            padding-left: 200px;
+            position: static;
+      }
+}
+
 
 
 /* Navbar */
