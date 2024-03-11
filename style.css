@@ -119,9 +119,11 @@ body {
 
 .navbar #coffee{
     height: 45px;
-    margin-bottom: -1.8em;
-    margin-left: 22.5%;
-    float: center;
+    margin-left: -56px;
+    margin-top: 4px;
+
+    position: absolute;
+
 }
 
 .navbar #coffee:hover{
@@ -292,8 +294,10 @@ footer{
 }
 
 .container #box1{
+    background-color: #151515;
     background-image: url(Imagens/Contador.png);
     background-position: center;
+    background-repeat: no-repeat;
     background-size: 320px;
     
 }
@@ -305,6 +309,7 @@ footer{
 }
 
 .container #box3{
+    background-color: #8a8a8a;
     background-image: url(Imagens/Soundboard.png);
     background-position: center;
     background-repeat: no-repeat;
