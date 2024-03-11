@@ -25,9 +25,10 @@
     @-moz-document url-prefix() {
 
         .navbar #coffee{
-            margin-right: -5%;
-            float: center;
+            padding-left: 215px;
+            position: static;
         }
+
 
         body{font-size: 0.8em;}
 
