@@ -166,6 +166,7 @@ body {
 
 #h1{
     font-family: "Press Start 2P", system-ui;
+    margin-left: 20px;
     padding: 4px;
     font-size: 3em;
     height: 45px;
