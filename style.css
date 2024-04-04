@@ -25,9 +25,10 @@
     @-moz-document url-prefix() {
 
         .navbar #coffee{
-            margin-right: -5%;
-            float: center;
+            padding-left: 215px;
+            position: static;
         }
+
 
         body{font-size: 0.8em;}
 
@@ -66,6 +67,7 @@
 }
 
 
+
 body {
     font-family: "Pixelify Sans",  Verdana;
     background: #1e1e3c;
@@ -78,6 +80,15 @@ body {
     margin: 0px;
     text-align: center;
 }
+
+
+@-moz-document url-prefix() {
+        .navbar #coffee{
+            padding-left: 200px;
+            position: static;
+      }
+}
+
 
 
 /* Navbar */
@@ -119,9 +130,11 @@ body {
 
 .navbar #coffee{
     height: 45px;
-    margin-bottom: -1.8em;
-    margin-left: 22.5%;
-    float: center;
+    margin-left: -50px;
+    margin-top: 4px;
+
+    position: absolute;
+
 }
 
 .navbar #coffee:hover{
@@ -153,6 +166,7 @@ body {
 
 #h1{
     font-family: "Press Start 2P", system-ui;
+    margin-left: 20px;
     padding: 4px;
     font-size: 3em;
     height: 45px;
@@ -292,8 +306,10 @@ footer{
 }
 
 .container #box1{
+    background-color: #151515;
     background-image: url(Imagens/Contador.png);
     background-position: center;
+    background-repeat: no-repeat;
     background-size: 320px;
     
 }
@@ -305,6 +321,7 @@ footer{
 }
 
 .container #box3{
+    background-color: #8a8a8a;
     background-image: url(Imagens/Soundboard.png);
     background-position: center;
     background-repeat: no-repeat;
